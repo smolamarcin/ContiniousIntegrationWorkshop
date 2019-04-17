@@ -11,7 +11,9 @@
     <properties>
         <assertj-core.version>3.12.2</assertj-core.version>
         <junit.version>5.4.2</junit.version>
+        <junit.platform.version>1.0.1</junit.platform.version>
         <maven-surefire-plugin.version>3.0.0-M3</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.0.0-M3</maven-failsafe-plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -42,6 +44,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>${maven-failsafe-plugin.version}</version>
             </plugin>
         </plugins>
     </build>
