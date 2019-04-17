@@ -21,5 +21,10 @@ pipeline {
                 }
             }
         }
+        stage('Integration tests') {
+            steps {
+                sh 'mvn verify'
+            }
+        }
     }
 }
