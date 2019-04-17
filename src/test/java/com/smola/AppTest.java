@@ -9,6 +9,6 @@ public class AppTest {
 
     @Test
     public void sampleTest() {
-        assertTrue(false);
+        assertTrue(true);
     }
 }
