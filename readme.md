@@ -1,10 +1,11 @@
 # Continious Integration introduction
 
-# Prerequisites:
+## Prerequisites:
 
-Jenkins installed and unlocked (on docker or on your machine) https://jenkins.io/doc/
+Jenkins installed and unlocked https://jenkins.io/doc/
 
-# Test:
+## Test:
+After this workshop you should know:
 
 * What is CI?
 * CI benefits / limitations
